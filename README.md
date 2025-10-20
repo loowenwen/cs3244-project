@@ -13,7 +13,7 @@ We will evaluate these models based on performance metrics like Accuracy, Precis
 
 ## Dataset
 The dataset is sourced from the "Credit Card Approval Prediction" dataset found on Kaggle. It consists of two main files: 
-1. `application_record.csv ` that contains applicant demographic, income, and other personal information.
+1. `application_record.csv` that contains applicant demographic, income, and other personal information.
 2. `credit_record.csv` that contains historical monthly credit status data for applicants.
 
 A key part of the project involves cleaning, merging, and engineering these two datasets to create a unified dataset (clean_merged.csv) with a suitable target variable (label) derived from the applicant's payment history.
@@ -29,7 +29,7 @@ A key part of the project involves cleaning, merging, and engineering these two 
 ├── data/
 │   ├── application_record.csv  # Raw applicant data
 │   ├── credit_record.csv       # Raw credit history data
-│   └── clean_merged.csv        # The final, cleaned dataset (output of data_cleaning.ipynb)
+│   ├── clean_merged.csv        # The final, cleaned dataset (output of data_cleaning.ipynb)
 │   └── to be updated
 │
 ├── drafts/
@@ -37,7 +37,7 @@ A key part of the project involves cleaning, merging, and engineering these two 
 │
 ├── src/
 │   ├── data_cleaning.ipynb     # Notebook for all cleaning, merging, and EDA
-│   ├── data_processing.ipynb   # Notebook for processing and smote
+│   ├── data_processing.ipynb   # Notebook for processing and handling data imbalance
 │   ├── knn_model.ipynb         # Notebook for KNN modeling
 │   ├── random_forest_model.ipynb # Notebook for Random Forest modeling
 │   └── neural_network_model.ipynb # Notebook for NN modeling
