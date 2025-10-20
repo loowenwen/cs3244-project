@@ -13,8 +13,8 @@ We will evaluate these models based on performance metrics like Accuracy, Precis
 
 ## Dataset
 The dataset is sourced from the "Credit Card Approval Prediction" dataset found on Kaggle. It consists of two main files: 
-1. ![application_record.csv](./data/application_record.csv) that contains applicant demographic, income, and other personal information.
-2. ![credit_record.csv](./data/credit_record.csv) that contains historical monthly credit status data for applicants.
+1. `application_record.csv ` that contains applicant demographic, income, and other personal information.
+2. `credit_record.csv` that contains historical monthly credit status data for applicants.
 
 A key part of the project involves cleaning, merging, and engineering these two datasets to create a unified dataset (clean_merged.csv) with a suitable target variable (label) derived from the applicant's payment history.
 
